@@ -21,7 +21,15 @@
     border:2px solid darkred;
     border-radius: 2px;
 }
-
+.Dropdown{
+    width:100%;
+    border:2px solid darkred;
+    font:inherit;
+    padding:10px;
+}
+.Dropdown:focus{
+    outline: none;
+}
 .Input:focus{
     outline:none;
 }

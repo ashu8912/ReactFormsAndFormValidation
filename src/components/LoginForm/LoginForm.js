@@ -8,7 +8,7 @@ const LoginForm=(props)=> {
             formElements.push({id:key,config:props.loginform[key]})
         }
         return (
-                <form className="login-form"  onSubmit={(event)=>props.submit(event,"loginForm")}>
+                <form className="form"  onSubmit={(event)=>props.submit(event,"loginForm")}>
            <div className="user_profile_image">
            <svg className="svg-icon" viewBox="0 0 20 20">
 							<path fill="orange" d="M14.023,12.154c1.514-1.192,2.488-3.038,2.488-5.114c0-3.597-2.914-6.512-6.512-6.512

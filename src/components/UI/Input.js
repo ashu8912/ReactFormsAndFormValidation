@@ -12,6 +12,11 @@ const Input = (props) => {
         case 'input':
         inputElement=<input className={classesToApply.join(' ')} {...props.elementConfig} onChange={props.changed}/>;
         break;
+        case 'dropdown':
+        inputElement=<select onChange={props.changed} className="Dropdown">{props.elementConfig.options.map((option)=>{
+        return <option key={option.displayValue}>{option.displayValue}</option>})}
+        </select>
+        break;
         default:
         inputElement=<input/>
     }
