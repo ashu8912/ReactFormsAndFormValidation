@@ -1,0 +1,31 @@
+.form-element{
+    margin:1.2rem;
+    align-items: center;
+}
+
+.Label{    
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.Invalid{
+    background:lightcoral;
+    border:2px solid red;
+}
+.Input{
+    width:100%;
+    font-size:1.5rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    padding:10px;
+    border:2px solid darkred;
+    border-radius: 2px;
+}
+
+.Input:focus{
+    outline:none;
+}
+.ValidateError{
+    font-size:28px;
+    color:maroon;
+}
